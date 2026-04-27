@@ -138,7 +138,13 @@ jobs:
             echo "Docker not found. Installing Docker..."
             if command -v apt-get >/dev/null 2>&1; then
               sudo apt-get update
-              curl -fsSL https://get.docker.com | sh
+
+              # Install Docker (official way)
+              curl -fsSL https://get.docker.com | sudo sh
+           
+              # Add user to docker group
+              sudo usermod -aG docker $USER
+              
             else
               echo "ERROR: Unsupported package manager; install Docker manually."
               exit 1
