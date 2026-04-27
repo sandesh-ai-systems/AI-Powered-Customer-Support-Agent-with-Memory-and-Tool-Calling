@@ -1,0 +1,20 @@
+[project]
+name = "ai-powered-customer-support-agent-with-memory-and-tool-calling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.8",
+    "dotenv>=0.9.9",
+    "email-validator>=2.3.0",
+    "fastapi>=0.136.1",
+    "google-genai>=1.73.1",
+    "groq<1",
+    "langchain>=1.2.15",
+    "langchain-groq>=1.1.2",
+    "langchain-text-splitters>=1.1.2",
+    "mem0ai>=2.0.0",
+    "sentence-transformers>=5.4.1",
+    "streamlit>=1.56.0",
+]
