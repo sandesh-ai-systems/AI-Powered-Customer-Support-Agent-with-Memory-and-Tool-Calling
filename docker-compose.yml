@@ -40,3 +40,13 @@ services:
     volumes:
       - ./data:/app/data
       - ./knowledge_base:/app/knowledge_base
+
+
+  ## Docker-Compose to be used when -
+
+# ✔ Multiple services
+# ✔ Services depend on each other
+# ✔ You want reproducible setup
+# ✔ You plan to deploy 
+#  Your project has multiple components that must run together and talk to each other
+# docker-compose = “run my entire system with one command”
