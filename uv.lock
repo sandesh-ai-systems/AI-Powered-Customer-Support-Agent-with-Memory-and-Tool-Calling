@@ -28,7 +28,6 @@ dependencies = [
     { name = "langchain-groq" },
     { name = "langchain-text-splitters" },
     { name = "mem0ai" },
-    { name = "sentence-transformers" },
     { name = "streamlit" },
 ]
 
