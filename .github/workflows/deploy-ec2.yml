@@ -40,8 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject .env from secret (optional)
-        if: ${{ vars.INJECT_ENV_FILE == 'true' }}
+      - name: Inject .env from secret
         run: |
           printf "%s" "${{ secrets.EC2_ENV_FILE }}" > .env
 
