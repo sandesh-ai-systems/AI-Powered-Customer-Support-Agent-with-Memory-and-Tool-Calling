@@ -2,7 +2,7 @@
 
 An intelligent customer support system built using FastAPI, LangChain, RAG, and Memory, capable of generating contextual responses, learning from past resolutions, and assisting support teams with AI-driven automation.
 
-## 🚀 Features
+# 🚀 Features
 
 * 🧠 Memory-Driven Learning
 * 📚 RAG (Retrieval-Augmented Generation)
