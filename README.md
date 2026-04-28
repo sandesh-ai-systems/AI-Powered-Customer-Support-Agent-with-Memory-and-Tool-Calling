@@ -3,32 +3,17 @@
 An intelligent customer support system built using FastAPI, LangChain, RAG, and Memory, capable of generating contextual responses, learning from past resolutions, and assisting support teams with AI-driven automation.
 
 ## 🚀 Features
-## 🧠 Memory-Driven Learning
-# Stores accepted resolutions and reuses them for similar future queries
-Improves accuracy over time
-📚 RAG (Retrieval-Augmented Generation)
-Uses a knowledge base (Markdown/Text files)
-Retrieves relevant context before generating responses
-🛠️ Tool Calling (LangChain Tools)
-Customer plan lookup
-Ticket load analysis
-Enables dynamic decision-making
-🎫 Ticket Management System
-Create, update, and track tickets
-Generate AI-powered draft responses
-✍️ Draft Generation & Feedback Loop
-AI suggests responses
-User can accept/edit → stored in memory
-🌐 FastAPI Backend
-REST APIs for all operations
-📊 Streamlit Dashboard
-UI for interacting with the system
-🐳 Dockerized Deployment
-Containerized services
-Easy deployment using Docker Compose
-⚙️ CI/CD with GitHub Actions
-Automated testing (CI)
-Deployment to AWS EC2 (CD)
+
+* 🧠 Memory-Driven Learning
+* 📚 RAG (Retrieval-Augmented Generation)
+* 🛠️ Tool Calling (LangChain Tools)
+* 🎫 Ticket Management System
+* ✍️ Draft Generation & Feedback Loop
+* 🌐 FastAPI Backend
+* 📊 Streamlit Dashboard
+* 🐳 Dockerized Deployment
+* ⚙️ CI/CD with GitHub Actions
+
 
 
 
