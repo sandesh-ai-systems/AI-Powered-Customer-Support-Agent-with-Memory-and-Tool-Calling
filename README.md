@@ -15,7 +15,9 @@ An intelligent customer support system built using FastAPI, LangChain, RAG, and 
 * ⚙️ CI/CD with GitHub Actions
 
 
+## 🏗️ Architecture
 
+![Architecture](Architecture.png)
 
 
 # ⚙️ Setup Instructions
