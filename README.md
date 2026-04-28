@@ -18,9 +18,9 @@ An intelligent customer support system built using FastAPI, LangChain, RAG, and 
 
 
 
-## ⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 
-# Deploy to AWS EC2 with GitHub Actions (CI/CD)
+## Deploy to AWS EC2 with GitHub Actions (CI/CD)
 
 This is a an SSH-based deployment pipeline for this project.
 
